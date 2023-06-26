@@ -1,0 +1,9 @@
+{
+  "name": "your-project",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "dependencies": {
+  "discord.js": "^13.1.0",
+  "express": "^4.17.1"
+  }
+}
