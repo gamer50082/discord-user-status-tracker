@@ -11,8 +11,8 @@ const client = new Client({
 });
 
 const app = express();
-const port = 33303;
-const botToken = 'MTEwODU4ODg5NzQ3NjI4MDQxMA.GjxS8o.7U9wR9XpnF6oyWhvPWT6FiwF4rVFPCECmQZWrM';
+const port = 8080;
+const botToken = 'BOT-TOKEN';
 
 app.get('/user/stats/:userId', (req, res) => {
   const userId = req.params.userId;
